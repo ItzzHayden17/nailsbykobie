@@ -1,0 +1,252 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color:#394735 ;
+}
+h1{ 
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+img{
+    border-radius: 50%;
+}
+p{
+    margin: 0;
+}
+.first-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-image: url("assets/bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first-section a {
+    font-family: "Neonderthaw", cursive;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: normal;
+}
+.text{
+    font-size: 3rem;
+    fill: white;
+}
+
+#curve{
+    fill: transparent;
+}
+.text__path{
+    font-family: "Birthstone Bounce";
+    font-weight: 400;
+    font-size: 48px;
+    font-style: normal
+}
+
+.hr-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.first-section hr{
+    width: 20%;
+    border: none;
+    border-top: 2px solid;
+    margin-top: 35px;
+}
+
+.first-section a{
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    width: 60%;
+    margin-top: 80px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.second-section{
+    height: 100vh;
+    background-image: url("assets/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-heading{
+    margin-left: 40%;
+    position: absolute;
+    margin-bottom: 0;
+}
+.section-heading h1 {
+    padding: 0 0 5% 0;
+}
+.second-section div{
+    width: 22%;
+}
+.listing-one{
+    margin: 60px 0 0 30px;
+    position: absolute;
+}
+
+.listing-three{
+    margin: 120px 0 0 450px;
+    position: absolute;
+    width: 40%;
+}
+.listing-five{
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: 10%;
+
+    }
+h3{
+    font-family: "Birthstone Bounce";
+    font-weight: 400;
+    font-size: 36px;
+    font-style: normal
+    ;}
+.listing-one h2{
+    background-color:#544029 ;
+    margin-bottom: 0;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 2px;
+}
+
+.listing-two h2{
+    background-color:#544029 ;
+    margin-bottom: 0;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.listing-three h2{
+    background-color:#98836C ;
+    margin-bottom: 0;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 2px;
+}
+.listing-four h2{
+    background-color:#98836C ;
+    margin-bottom: 0;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+}
+.listing-five h2{
+    background-color:#544029 ;
+    margin-bottom: 0;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+}
+.third-section{
+    text-align: center;
+    height: 100vh;
+    background-image: url("assets/bg3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    color: black;
+}
+.content a{
+    text-decoration: none;
+    color: black;
+}
+.content a h4{
+    padding: 5px;
+}
+.content a h4:hover{
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+}
+.content h1 {
+    font-size: 120px;
+    color: white;
+    left: 0;
+    font-family: "Neonderthaw", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.content hr{
+  border: 1px solid black;
+ border-radius: 5px ;
+}
+
+
+
+@media  ( max-width : 1200px) {
+    body{
+        overflow-x: hidden;
+        margin-bottom: 5%
+        
+    }
+    .section-heading{
+        position: relative;
+        margin: auto;
+    }
+    .listing-one{
+        position: relative;
+        margin: 0;
+    }
+    .listing-two{
+        position: relative;
+        margin: 0;
+    }
+    .listing-three{
+        position: relative;
+        margin: 0;
+    }
+    .listing-four{
+        position: relative;
+        margin: 0;
+    }
+    .listing-five{
+        position: relative
+    }
+    .second-section{
+        padding: 8%;
+        display: flex;
+        flex-direction: column;
+    }
+    .second-section div{
+        width: 100%;
+    }
+    .third-section{
+        display: none;
+    }
+    .third-section h1{
+        margin-top: 40%
+    }
+    
+}
+
